@@ -1,0 +1,114 @@
+.table {
+	background-color: #b9dcff;
+	margin-top: 1%;
+	margin-left: 30%;
+	padding: 5px 10px 5px 10px;
+	height: 100%;
+	width: 40%;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+}
+
+#rgtbtn {
+	background-color: #4444ff;
+	color: #c0c0c0;
+	margin: 8px 0;
+	border: solid;
+	cursor: pointer;
+	width: 60%;
+	opacity: 0.8;
+	padding: 16px 20px;
+	border: solid;
+	font-size: 15px;
+}
+
+#rgtbtn2 {
+	background-color: #b7ffff;
+	color: #0c0977;
+	margin: 8px 0;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.6;
+	padding: 16px 20px;
+	font-size: 25px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number]
+	{
+	width: 60%;
+	padding: 7px 10px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus
+	{
+	background-color: #ddd;
+	outline: none;
+}
+
+h1 {
+	color: #000080;
+}
+
+.table1 {
+	background-color: #c4e1ff;
+	margin-top: 1%;
+	opacity: 0.9;
+	padding: 5px 10px 5px 10px;
+	height: 100%;
+	width: 40%;
+	color: #000000;
+	font-size: 2px;
+	text-align: center;
+}
+
+#btn1 {
+	display: inline-block;
+	margin-top: 1%;
+	opacity: 0.9;
+	padding: 5px 10px 5px 10px;
+	height: 100%;
+	width: 100%;
+	color: #000000;
+	font-size: 15px;
+	text-align: center;
+}
+
+.table3 {
+	background-color: #cce6ff;
+	margin-top: 1%;
+	margin-left: 25%;
+	padding: 5px 10px 5px 10px;
+	height: 150px;;
+	width: 50%;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	opacity: 0.9;
+	align: center;
+}
+
+#btn4 {
+	display: inline-block;
+	margin-top: 1%;
+	opacity: 0.9;
+	padding: 5px 10px 5px 10px;
+	height: 50%;
+	width: 50%;
+	color: #000000;
+	font-size: 15px;
+	text-align: center;
+	background-color: #80ffff;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Querys>
+<query id="qid_1">
+<![CDATA[
+      	insert into property2 values(?,?,?)
+        ]]>
+</query>
+
+<query id="qid_2">
+<![CDATA[
+      	select image from property2 where pname=?
+        ]]>
+</query>
+
+<query id="qid_3">
+<![CDATA[
+      	select pname from property2
+        ]]>
+</query>
+
+<query id="qid_4">
+<![CDATA[
+      	select description from property2
+        ]]>
+</query>
+
+<query id="qid_5">
+<![CDATA[
+      	select count(*) from property2
+        ]]>
+</query>
+
+<query id="qid_6">
+<![CDATA[
+      	delete from property2 where pname=?
+        ]]>
+</query>
+<query id="qid_7">
+<![CDATA[
+      	select description from property2 where pname=?
+        ]]>
+</query>
+<query id="qid_8">
+<![CDATA[
+      	UPDATE property2  SET description =?  WHERE pname=?
+        ]]>
+</query>
+
+</Querys>

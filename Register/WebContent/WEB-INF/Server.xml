@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name></display-name>
+   <servlet>
+    <servlet-name>getCustomerServlet</servlet-name>
+    <servlet-class>server.loginServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getCustomerServlet</servlet-name>
+    <url-pattern>/loginServer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>insertcutdata</servlet-name>
+    <servlet-class>server.RegisterServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>insertcutdata</servlet-name>
+    <url-pattern>/RegisterServer</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>server.loginServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/loginServer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>forgotpwd</servlet-name>
+    <servlet-class>server.forgotpwdServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>forgotpwd</servlet-name>
+    <url-pattern>/forgotpwdServer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>resetpwd</servlet-name>
+    <servlet-class>server.forgotpwdrecoverServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resetpwd</servlet-name>
+    <url-pattern>/forgotpwdrecoverServer</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>resetpwdnew</servlet-name>
+    <servlet-class>server.resetpwdServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resetpwdnew</servlet-name>
+    <url-pattern>/  resetpwdServer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>server.deleteServer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/deleteServer</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>login.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    
+  </welcome-file-list>
+  
+  
+  
+  </web-app>

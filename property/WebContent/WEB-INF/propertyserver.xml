@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name></display-name>
+   <servlet>
+    <servlet-name>addproperty</servlet-name>
+    <servlet-class>servlet.AddpropertyServer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>addproperty</servlet-name>
+    <url-pattern>/AddpropertyServer</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>displayImages</servlet-name>
+    <servlet-class>servlet.ImageRetrieveServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>displayImages</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>servlet.DeleteServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/ImageRetrieveServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>servlet.EditServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>Editprop</servlet-name>
+    <servlet-class>servlet.EditpropertyServer</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>Editprop</servlet-name>
+    <url-pattern>/EditpropertyServer</url-pattern>
+  </servlet-mapping>
+  
+  </web-app>
+  

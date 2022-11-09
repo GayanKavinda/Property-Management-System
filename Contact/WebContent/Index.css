@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+body {
+    background-color: yellow;
+    background-image:url("./Resources/cropped-seattle-2534686_1920-1.jpg");
+    position: absolute;
+	top: 0px;
+	//left: 25px;
+	width: 500px;
+	padding:10px;
+	height: 50%;
+	
+	
+}
+
+h1{
+	text-align: center;
+	color: #1C2683;
+	top:50px;
+	font-size:100px;
+	
+	
+}
+
+form{
+	font-size:30px;
+	color:#23AEBD;
+	width: 100%;
+    padding: 50px 400px;
+}
+
+.add-button {
+    background-color: #0000FF; /* blue */
+    color: black;
+    width: 20%;
+    padding: 8px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.reset-button {
+    background-color: #ffff00; /* yellow */
+    color: black;
+    width: 20%;
+    padding: 8px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.list-button {
+    background-color: #00FF00; /* green */
+    color: black;
+    width: 100%;
+    padding: 8px 215px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+img{
+	
+	width:50px;
+	padding-bottom:10px;
+	
+}

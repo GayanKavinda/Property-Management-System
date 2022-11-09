@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Querys>
+<query id="qid_1">
+<![CDATA[
+         select name from customerde
+        ]]>
+</query>
+<query id="qid_2">
+<![CDATA[
+         insert into customer_detail (id,uname,email,password) 
+          	values (?,?,?,?)
+        ]]>
+</query>
+
+<query id="qid_3">
+<![CDATA[
+		select * from customer_detail where uname = ?
+ ]]>
+</query>
+<query id="qid_4">
+<![CDATA[
+	select id from customer_detail where id >= all (select id from customer_detail)
+ ]]>
+</query>
+
+<query id="qid_6">
+<![CDATA[
+        select uname from customer_detail where uname=? and password=?
+	
+ ]]>
+</query>
+
+<query id="qid_7">
+<![CDATA[
+       select uname from customer_detail where uname=?
+	
+ ]]>
+</query>
+
+<query id="qid_8">
+<![CDATA[
+       select uname from customer_detail where uname=? and email=?
+	
+ ]]>
+</query>
+
+<query id="qid_9">
+<![CDATA[
+        UPDATE customer_detail  SET password =?  WHERE uname=?
+	
+ ]]>
+</query>
+
+<query id="qid_10">
+<![CDATA[
+     select id from customer_detail   WHERE uname=?
+	
+ ]]>
+</query>
+<query id="qid_11">
+<![CDATA[
+     delete  from customer_detail   WHERE id=?
+	
+ ]]>
+</query>
+
+
+
+
+
+</Querys>
+

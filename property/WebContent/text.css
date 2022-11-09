@@ -1,0 +1,182 @@
+.table{
+	
+	
+	background-color:#86ff86;
+	margin-top:1%;
+	margin-left:30%;
+
+	padding:5px 10px 5px 10px;
+	height:100%;
+	width:40%;
+	color:#000000;
+	font-size:15px;
+	text-align:center;
+	
+	
+}
+#rgtbtn{
+	background-color:#4444ff;
+  color: #c0c0c0;
+ margin: 8px 0;
+  border: solid;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.8;
+   padding: 16px 20px;
+    border: solid;
+    font-size:15px;
+	
+}
+#rgtbtn2{
+	background-color:#444444;
+  color: black;
+ margin: 8px 0;
+ 
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;
+   padding: 16px 20px;
+  
+    font-size:15px;
+	
+}
+input[type=text], input[type=password],input[type=email],input[type=number] {
+  width: 60%;
+   padding: 7px 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+ 
+  background: #f1f1f1;
+}
+
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+h1{
+	color:#000000;
+}
+
+.table1{
+	
+	
+	background-color:#c4e1ff;
+	margin-top:1%;
+	
+	opacity: 0.9;
+	padding:5px 10px 5px 10px;
+	height:100%;
+	width:40%;
+	color:#000000;
+	font-size:2px;
+	text-align:center;
+	
+	
+}
+#btn1{
+	
+	display: inline-block;
+	margin-top:1%;
+	
+	opacity: 0.9;
+	padding:5px 10px 5px 10px;
+	height:100%;
+	width:100%;
+	color:#000000;
+	font-size:15px;
+	text-align:center;
+	
+}
+.table3{
+	background-color:#cce6ff;
+	margin-top:1%;
+	margin-left:30%;
+	padding:5px 10px 5px 10px;
+	height:150px;;
+	width:50%;
+	color:#000000;
+	font-size:15px;
+	text-align:center;
+	opacity:0.9;
+	align:center;
+
+	
+	
+}
+#details1{
+	
+	
+	background-color:#80ff80;
+	margin-top:30%;
+	margin-left:10%;
+	 
+	padding:5px 10px 5px 10px;
+	height:100%;
+	width:80%;
+	color:#004000;
+	font-size:20px;
+	text-align:center;
+	align:center;
+	
+	
+	
+}
+#details{
+	
+	
+	background-color:#b9ffb9;
+	margin-top:1%;
+	margin-left:30%;
+	 
+	padding:5px 10px 5px 10px;
+	height:100%;
+	width:40%;
+	color:#004000;
+	font-size:20px;
+	text-align:center;
+	align:center;
+	
+	
+	
+}
+#rgtbtn3{
+	background-color:#008000;
+  color: #c0c0c0;
+ margin: 8px 0;
+  border: solid;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.8;
+   padding: 16px 20px;
+    border: solid;
+    font-size:15px;
+	
+}
+#rgtbtn4{
+	background-color:#48ffa4;
+  color: #c0c0c0;
+ margin: 8px 0;
+  
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.8;
+   padding: 16px 20px;
+    border: solid;
+    font-size:15px;
+	
+}
+p{
+	 
+	color: #004f00;
+	width:100%;
+}
+.t1{
+	 border: solid;
+}
+
+
+
+
+
+

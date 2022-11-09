@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Querys>
+
+	<!-- Create table inquiry Query -->
+	<query id="create_inquiry_table">
+        <![CDATA[
+            CREATE TABLE inquiry(
+				id varchar(10) not null,
+				name varchar(20),
+				email varchar(50),
+				city varchar(50),
+				description varchar(500),
+				primary key (id)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE INQUIRY Query -->
+	<query id="drop_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS inquiry 
+        ]]>
+	</query>
+
+	<!-- Insert an INQUIRY Query -->
+	<query id="insert_inquiry">
+        <![CDATA[
+          	insert into inquiry (id,name,email,city,description) 
+          	values (?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular inquiry by id Query -->
+	<query id="inquiry_by_id">
+         <![CDATA[        
+            select * from inquiry where inquiry.id = ?
+        ]]>
+	</query>
+
+	<!-- Select all inquiries -->
+	<query id="all_inquiries">
+         <![CDATA[        
+            select * from inquiry
+        ]]>
+	</query>
+
+	<!-- Delete a particular inquiry by id Query -->
+	<query id="remove_inquiry">
+         <![CDATA[        
+            delete from inquiry where inquiry.id = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular inquiry by id Query -->
+	<query id="update_inquiry">
+         <![CDATA[        
+            update inquiry as i 
+            set i.name = ?, i.email = ?, i.city = ?, i.description = ? 
+            where i.id = ?
+        ]]>
+	</query>
+	
+		<!-- Get inquiries IDs Query -->
+	<query id="inquiry_ids">
+         <![CDATA[        
+            select i.id from inquiry as i
+        ]]>
+	</query>
+
+</Querys>
